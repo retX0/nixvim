@@ -5,6 +5,7 @@
 }:
 {
   imports = [
+    ./avante.nix
     ./cmp.nix
     ./codeium.nix
     ./copilot.nix
