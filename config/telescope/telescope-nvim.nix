@@ -69,6 +69,10 @@
           action = "find_files";
           options.desc = "Find project files";
         };
+        "<leader>fw" = {
+          action = "live_grep";
+          options.desc = "Search project text";
+        };
         "<leader>fr" = {
           action = "oldfiles";
           options.desc = "Recent";
