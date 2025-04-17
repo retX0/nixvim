@@ -4,7 +4,7 @@
     harpoon.enable = lib.mkEnableOption "Enable harpoon module";
   };
   config = lib.mkIf config.harpoon.enable {
-    plugins.harpoon = {
+    plugins.harpoon2 = {
       enable = true;
       enableTelescope = true;
       keymapsSilent = true;
